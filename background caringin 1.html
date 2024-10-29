@@ -1,0 +1,58 @@
+<!-- <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOVE YOU</title>
+    <style>
+        div{
+            color: red;
+            background-color: black;
+            font-size: 70px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>
+            <marquee behavior="" direction="">yang baca autis/marquee>
+        </h1>
+    </div>
+</body>
+</html> -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOVE YOU</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: black;
+        }
+        .marquee {
+            color: red;
+            font-size: 70px;
+            white-space: nowrap;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+        .marquee span {
+            display: inline-block;
+            animation: marquee 5s linear infinite; /* Changed duration to 5s for faster effect */
+        }
+        @keyframes marquee {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+    </style>
+</head>
+<body>
+    <div class="marquee">
+        <span>yang baca autis</span>
+    </div>
+</body>
+</html>

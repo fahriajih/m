@@ -1,0 +1,42 @@
+/* CSS yang sudah ada tetap, hanya menambahkan atau mengubah bagian di bawah ini */
+
+/* Ukuran font untuk pesan pengguna dan AI */
+.message {
+    margin-bottom: 10px;
+    font-size: 28px; /* Ukuran font 7x lebih besar dari ukuran standar (misalnya 12px) */
+}
+
+.user {
+    text-align: right;
+    font-weight: bold;
+    color: #0056b3; /* Mengubah warna teks pengguna */
+}
+
+.ai {
+    text-align: left;
+    color: #d9534f; /* Mengubah warna teks AI */
+}
+
+/* Menambahkan padding untuk lebih banyak ruang di sekitar pesan */
+#chat-box {
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px; /* Menambah padding untuk ruang yang lebih banyak */
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Mengubah ukuran input dan button untuk mencocokkan ukuran font yang lebih besar */
+input, button {
+    font-size: 24px; /* Ukuran font input dan button */
+}
+
+button {
+    padding: 15px 20px; /* Menambah padding untuk button */
+}
+
+#theme-toggle {
+    font-size: 30px; /* Ukuran font untuk tema toggle */
+}

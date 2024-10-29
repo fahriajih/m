@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient dari ungu ke biru */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9); /* Putih transparan untuk konten */
+    border-radius: 10px; /* Rounded corners untuk kontainer */
+    margin: 20px; /* Memberikan jarak dari tepi layar */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Bayangan untuk kedalaman */
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 200px; /* Perbesar ukuran gambar */
+    height: 200px; /* Pastikan tinggi juga sesuai */
+    border-radius: 50%; /* Membuat gambar menjadi lingkaran */
+    border: 5px solid #fff; /* Border putih yang lebih tebal */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Bayangan untuk efek kedalaman */
+    margin-bottom: 20px; /* Spasi di bawah gambar */
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #ffa500; /* Warna saat hover */
+}
+
+main {
+    flex: 1; /* Membuat main mengambil sisa ruang yang ada */
+    background: #fff;
+    

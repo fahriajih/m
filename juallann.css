@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.produk {
+    max-width: 800px;
+    margin: auto;
+}
+
+.produk-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.produk-item {
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.produk-item:hover {
+    transform: scale(1.05);
+}
+
+.produk-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.produk-item h3 {
+    margin: 10px 0;
+}
+
+.rating {
+    color: gold;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}

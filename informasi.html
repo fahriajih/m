@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tentang cyber, linux, dan html, css, JavaScript</title>
+    <link rel="stylesheet" href="infor.css">
+</head>
+<body>
+    <header>
+        <h1>Cyber Security, Linux, dan Web Development</h1>
+        <nav>
+            <ul>
+                <li><a href="#cyber-security">Cyber Security</a></li>
+                <li><a href="#linux">Linux</a></li>
+                <li><a href="#web-development">Dasar Web Development</a></li>
+                <li><a href="#contact">Kontak Kami</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Cyber Security Section -->
+        <section id="cyber-security">
+            <h2>Apa itu Cyber Security?</h2>
+            <p>Cyber Security adalah disiplin yang berfokus pada melindungi sistem, jaringan, dan program dari serangan digital. Serangan digital sering kali bertujuan untuk mencuri data sensitif, mengakses informasi penting, atau merusak operasi bisnis. Cyber Security mencakup berbagai topik seperti keamanan jaringan, kriptografi, keamanan perangkat lunak, dan lain-lain.</p>
+            <h3>Topik Utama dalam Cyber Security</h3>
+            <ul>
+                <li>**Keamanan Jaringan:** Berfokus pada melindungi jaringan komputer dari ancaman.</li>
+                <li>**Malware:** Program berbahaya yang digunakan untuk merusak atau mengakses sistem secara ilegal.</li>
+                <li>**Enkripsi:** Proses mengamankan informasi dengan mengubahnya menjadi kode yang tidak bisa dibaca tanpa kunci khusus.</li>
+                <li>**Firewall:** Sistem yang digunakan untuk mengontrol dan memantau lalu lintas jaringan yang masuk dan keluar.</li>
+            </ul>
+            <button onclick="toggleDetails('cyber-details')">Pelajari lebih lanjut</button>
+            <div id="cyber-details" style="display: none;">
+                <h4>Perlindungan dari Ancaman cyber</h4>
+                <p>Salah satu aspek penting dalam cyber security adalah melindungi data sensitif dari berbagai ancaman seperti ransomware, phishing, dan serangan brute force. Metode-metode perlindungan termasuk enkripsi data, autentikasi dua faktor (2FA), dan pembaruan perangkat lunak yang konsisten.</p>
+                <p>Dalam era digital ini, peran profesional keamanan siber sangat penting untuk menjaga kerahasiaan dan integritas data.</p>
+            </div>
+        </section>
+
+        <!-- Linux Section -->
+        <section id="linux">
+            <h2>Linux: Sistem Operasi Open-Source</h2>
+            <p>Linux adalah sistem operasi yang gratis dan open-source. Hal ini berarti bahwa siapa saja dapat mengunduh, memodifikasi, dan mendistribusikan Linux secara bebas. Linux populer karena stabilitasnya, keamanan yang lebih baik dibandingkan dengan banyak sistem operasi lain, dan fleksibilitasnya. Profesional IT sering menggunakan Linux karena kehandalan dan efisiensinya.</p>
+            <h3>Kelebihan Linux</h3>
+            <ul>
+                <li>**Keamanan Tinggi:** Linux dikenal sangat aman karena sistem izinnya yang ketat.</li>
+                <li>**Stabilitas:** Linux jarang mengalami crash atau lag, membuatnya ideal untuk server dan komputer dengan waktu aktif yang panjang.</li>
+                <li>**Kustomisasi:** Pengguna Linux dapat memodifikasi hampir semua bagian sistem operasi sesuai kebutuhan.</li>
+                <li>**Komunitas Aktif:** Banyak komunitas dan forum yang siap membantu pengguna baru Linux.</li>
+            </ul>
+            <button onclick="toggleDetails('linux-details')">Pelajari lebih lanjut</button>
+            <div id="linux-details" style="display: none;">
+                <h4>Distribusi Linux Populer</h4>
+                <p>Beberapa distribusi Linux yang paling sering digunakan adalah:</p>
+                <ul>
+                    <li>**Ubuntu:** Distribusi yang paling populer, terutama untuk pemula.</li>
+                    <li>**Fedora:** Fokus pada software open-source terbaru.</li>
+                    <li>**Debian:** Dikenal karena stabilitasnya.</li>
+                    <li>**Arch Linux:** Distribusi yang sangat kustomisasi untuk pengguna tingkat lanjut.</li>
+                </ul>
+                <p>Selain itu, Linux juga digunakan secara luas dalam pengembangan software, server web, dan bahkan untuk hacking etis, seperti dalam distribusi Kali Linux.</p>
+            </div>
+        </section>
+
+        <!-- Web Development Section -->
+        <section id="web-development">
+            <h2>Dasar-dasar Web Development: HTML, CSS, dan JavaScript</h2>
+            <p>Untuk membangun sebuah website, ada tiga teknologi utama yang perlu dipahami: **HTML**, **CSS**, dan **JavaScript**. HTML (Hypertext Markup Language) digunakan untuk membuat struktur dasar halaman web, CSS (Cascading Style Sheets) digunakan untuk mendesain tampilan, dan JavaScript digunakan untuk menambahkan interaktivitas.</p>
+            <h3>HTML</h3>
+            <p>HTML digunakan untuk membuat kerangka dasar website. Setiap elemen dalam HTML seperti judul, paragraf, gambar, dan tautan diatur menggunakan tag.</p>
+            <pre><code>&lt;h1&gt;Ini adalah judul&lt;/h1&gt;
+&lt;p&gt;Ini adalah paragraf.&lt;/p&gt;
+&lt;a href="https://example.com"&gt;Tautan ke website lain&lt;/a&gt;
+            </code></pre>
+            
+            <h3>CSS</h3>
+            <p>CSS digunakan untuk mendesain halaman web dengan mengubah warna, tata letak, dan tampilan elemen HTML. Misalnya, untuk mengubah warna teks menjadi merah:</p>
+            <pre><code>h1 {
+    color: red;
+}
+            </code></pre>
+
+            <h3>JavaScript</h3>
+            <p>JavaScript adalah bahasa pemrograman yang digunakan untuk membuat halaman web lebih interaktif. Dengan JavaScript, kita bisa membuat efek dinamis seperti animasi, validasi form, atau menampilkan konten tambahan saat tombol diklik.</p>
+            <pre><code>document.getElementById("myButton").onclick = function() {
+    alert("Tombol diklik!");
+};
+            </code></pre>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <h2>Kontak Kami</h2>
+        <form>
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Kirim</button>
+        </form>
+    </footer>
+
+    <script src="informasi.js"></script>
+</body>
+</html>

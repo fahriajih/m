@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fahri calculator</title>
+</head>
+<body>
+    <script>
+        // var x=document.body
+        // let a=prompt('hello siapa nama kamu??')
+        // let b=alert('hello '+a)
+        // alert('disini kami menyediakan program kalkulator')
+        // let c=prompt('huruf pertama')
+        // let d=prompt('a.tambah b.kurang c.kali d.bagi')
+        // let e=prompt('huruf ke dua')
+        // hasil=0
+        // if(d=='a'){
+        //    hasil= c+e
+        // }
+        // else if(d=='b'){
+        //     hasil=c-e
+        // }else if(d=='c'){
+        //     hasil=c*e
+        // }else if(d=='d'){
+        //     hasil=c/e
+        // }
+        // c=parseFloat(c)
+        // e=parseFloat(e)
+        // alert('hasil nya ialah '+hasil)
+        var x = document.body;
+let a = prompt('Hello, siapa nama kamu?');
+alert('Hello ' + a);
+alert('Disini kami menyediakan program kalkulator');
+
+let c = parseFloat(prompt('Masukkan angka pertama:'));
+let d = prompt('Pilih operasi: a.tambah b.kurang c.kali d.bagi');
+let e = parseFloat(prompt('Masukkan angka kedua:'));
+let hasil = 0;
+
+if (d === 'a') {
+    hasil = c + e;
+} else if (d === 'b') {
+    hasil = c - e;
+} else if (d === 'c') {
+    hasil = c * e;
+} else if (d === 'd') {
+    hasil = c / e;
+} else {
+    alert('Operasi tidak valid!');
+}
+
+alert('Hasil: ' + hasil);
+    </script>
+</body>
+</html>
